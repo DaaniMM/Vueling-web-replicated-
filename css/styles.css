@@ -1,0 +1,224 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+.topbar {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 69%;
+    margin: auto;
+    align-items: center;
+}
+
+.brand {
+    margin: auto;
+    margin-left: 18%;
+    text-align: center;
+    height: 80px;
+}
+
+.brand img{
+    width: 100%;
+    height: 100%;
+    box-shadow: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    border-bottom: 2px solid black;
+}
+
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-transform: uppercase ;
+    font-size: .82rem; 
+    padding-left: 0;
+    font-weight: 900;
+}
+
+.list-left {
+    width: 390px;
+}
+
+.list-right {
+    width: 300px;
+}
+
+.language{
+    margin-left: 15px;
+    font-size: .87rem;
+    font-weight: 900;
+}
+
+.language:hover {
+    border-bottom: 2px solid black;
+}
+
+.button{
+    border-radius: 1rem;
+    border: 1px solid black;
+    height: 2rem;
+    text-transform: uppercase;
+    padding: 0 20px;
+    background-color: inherit;
+    font-weight: 600;
+    font-size: .87rem;
+    margin-left: 15px;
+}
+
+.button:hover{
+    background-color: rgb(206, 206, 206);
+    transition-duration: 0.5s;
+}
+
+
+/* Aquí empieza el contenido principal */
+/* Primer section */
+
+.box{
+    width: 69%;
+    margin:auto;
+    margin-bottom: 20px;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 600;
+    padding-left: 0;
+    margin-top: 80px;
+}
+
+.text{
+    width: 50%;
+}
+
+.text h2{
+    margin-top: 50px;
+    font-size: 2.3rem;
+}
+
+.text p{
+    font-weight: 100;
+    font-size: 0.95rem;
+}
+
+.text button{
+    font-weight: 600;
+}
+
+.text-round-container h2{
+    transform: skewY(-6deg);
+    margin-bottom: 70px;
+}
+
+.vueling-club{
+    background-color: yellow;
+}
+
+.text-round-container button{
+    text-transform: uppercase;
+    font-size: 12px;
+    background-color: #fff000;;
+    border: 1px solid #fff000;;
+    border-radius: 1rem;
+    width: 130px;
+    height: 35px;
+}
+
+.round-img{
+    width: 36.25rem;
+    box-shadow: none;
+}
+
+.text-round-container{
+    margin-top: 60px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+img {
+    width: 23%;
+    box-shadow: 1px 1px 1px rgb(211, 211, 211);
+}
+
+.first-image{
+    border-radius: 5% 0 0 5%;
+}
+
+.last-image{
+    border-radius: 0 5% 5% 0;
+}
+
+.container2{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.container2 img {
+    width: 48.5%;
+}
+
+/* Sección: Completa tu viaje */
+
+.card{
+    width: 32%;
+    background-color: rgb(241, 241, 241);
+    border-radius: 3%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-img{
+    width: 100%;
+    border-radius: 3% 3% 0 0;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin-top: 1px;
+    margin-bottom: 0px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 0.85rem;
+    margin-top: 1px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.card button{
+    margin-left: 15px;
+    margin-bottom: 15px;
+    margin-top: auto;
+    width: 250px;
+    font-size: 0.8rem;
+}
